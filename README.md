@@ -18,7 +18,7 @@ python3 grid_app_consola.py
 
 Arriba de todo dejé guardados los colores que uso en la consola. Esos códigos raros como \033[93m son para que la terminal pinte de amarillo o de azul, y el COLOR_NORMAL es para volver a como estaba antes de pintar. También dejé fijo que la cuadrícula es de 8x8 para no estar poniendo el número por todos lados.
 
-Después armo la cuadrícula en sí. Como no usé nada de tkinter ni gráficos, se me ocurrió representarla como una tabla, o sea una lista de listas: cada fila es una lista y adentro tiene 8 casillas. Al principio todas quedan con un punto porque ese es el que uso para decir que ahí no hay nada seleccionado todavía. Ahí uso dos for metidos uno dentro del otro, uno para las filas y otro para ir llenando cada columna de esa fila.
+Después armo la cuadrícula en sí. Tuve como idea de hacerla y representarla como una tabla, o sea una lista de listas: cada fila es una lista y adentro tiene 8 casillas. Al principio todas quedan con un punto porque ese es el que uso para decir que ahí no hay nada seleccionado todavía. Ahí uso dos for metidos uno dentro del otro, uno para las filas y otro para ir llenando cada columna de esa fila.
 
 También dejé una lista vacía aparte, la de "seleccionadas". Ahí es donde voy guardando las coordenadas que el usuario va escogiendo, para poder mostrarle después cuáles ha usado.
 
